@@ -14,7 +14,7 @@ function getMessage(a, b) {
 
 
   } else if (typeof(a) === 'number') {
-    'Я прыгнул на ' + (a * 100) + ' сантиметров';
+    return 'Я прыгнул на ' + (a * 100) + ' сантиметров';
 
   } else if (Array.isArray(a)) {
 
